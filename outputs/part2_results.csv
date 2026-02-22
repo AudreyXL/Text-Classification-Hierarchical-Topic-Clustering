@@ -1,0 +1,5 @@
+Rank,Approach,Model,Accuracy,Macro-F1,Time (s)
+1,SentenceTransformer embeddings,Random Forest,0.6566648964418481,0.6304549338214157,4.1
+2,SentenceTransformer embeddings,Linear SVM,0.6263940520446096,0.6142502693891204,10.3
+3,SentenceTransformer embeddings,Multinomial NB (not ideal for embeddings),0.6326340945300053,0.587352841034402,0.0
+4,SentenceTransformer embeddings,Logistic Regression,0.5866967604885821,0.5774348658733583,1.9
