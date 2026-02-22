@@ -106,12 +106,11 @@ Part 3 includes an LLM-labeling interface in `src/labeling.py`.
 
 - Default behavior (works offline): creates **simple labels from top TF-IDF keywords**.
 - If you want to use an LLM, implement `label_with_llm()` in `src/labeling.py`
-  (or wire it to your course-approved LLM API). The rest of the pipeline stays the same.
 
 ---
 
-## Expected demo flow (2–3 minutes)
+## Expected demo flow
 
-1. Run Part 1 → show results CSV + bar chart
-2. Run Part 2 → show results CSV and compare to Part 1
-3. Run Part 3 → show elbow plot + printed tree output (`outputs/topic_tree.txt`)
+1. Run Part 1 → show results 
+2. Run Part 2 → show results compare to Part 1
+3. Run Part 3 → show tree output 
