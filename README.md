@@ -31,6 +31,7 @@ This is important because real-world datasets often lack annotations.
 ## Run
 
 From the project root:
+
 python -m scripts.run_part1
 
 python -m scripts.run_part2
