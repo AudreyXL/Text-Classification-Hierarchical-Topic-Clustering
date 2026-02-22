@@ -23,9 +23,9 @@ This is important because real-world datasets often lack annotations.
 
 ## Technology
 
--   Python\
--   Scikit-learn\
--   SentenceTransformers\
+-   Python
+-   Scikit-learn
+-   SentenceTransformers
 -   Pandas & Matplotlib
 
 ## Run
