@@ -18,8 +18,11 @@ Part 3 ignores labels and discovers topics automatically.
 
 From the project root:
 
-python -m scripts.run_part1 python -m scripts.run_part2 python -m
-scripts.run_part3
+python -m scripts.run_part1 
+
+python -m scripts.run_part2 
+
+python -m scripts.run_part3
 
 Each part can run independently.
 
