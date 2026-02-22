@@ -16,7 +16,7 @@ This is important because real-world datasets often lack annotations.
 
 1.  Convert text to numeric vectors using:
     -   TF-IDF
-    -   SentenceTransformer embeddings\
+    -   SentenceTransformer embeddings
 2.  Apply K-Means clustering to group similar documents.
 3.  Build a simple 2-level topic hierarchy (main topics + subtopics).
 4.  Automatically label clusters using top TF-IDF keywords.
@@ -31,6 +31,9 @@ This is important because real-world datasets often lack annotations.
 ## Run
 
 From the project root:
+python -m scripts.run_part1
+
+python -m scripts.run_part2
 
 python -m scripts.run_part3
 
